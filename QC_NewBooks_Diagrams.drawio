@@ -5,10 +5,39 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="oolTi4ql9czGb8AWLbX5-1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fontSize=18;fontFamily=Garamond;fontStyle=1;fontColor=light-dark(#000000,#EDBDD5);" value="&lt;span style=&quot;text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;QC NewBooks — Post Entry Logic&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="340" x="350" y="40" as="geometry" />
+          <mxGeometry height="40" width="340" x="390" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-6" edge="1" parent="1" source="oolTi4ql9czGb8AWLbX5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oolTi4ql9czGb8AWLbX5-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oolTi4ql9czGb8AWLbX5-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Garamond;fontSize=12;fontStyle=1;labelBackgroundColor=none;fillColor=light-dark(#000000,#EDBDD5);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#FF66B3);" value="START" vertex="1">
-          <mxGeometry height="70" width="130" x="160" y="120" as="geometry" />
+          <mxGeometry height="70" width="130" x="41" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Garamond;fontStyle=1;fontColor=#ffffff;fillColor=light-dark(#000000,#E5CCFF);strokeColor=light-dark(#006EAF,#B266FF);gradientColor=none;" value="User Clicks &quot;Post Entry&quot;" vertex="1">
+          <mxGeometry height="70" width="160" x="291" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-22" edge="1" parent="1" source="oolTi4ql9czGb8AWLbX5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oolTi4ql9czGb8AWLbX5-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-24" connectable="0" parent="oolTi4ql9czGb8AWLbX5-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Garamond;fontSize=14;fontStyle=1" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.0207" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Garamond;fontStyle=1;fontColor=light-dark(#000000,#FFFFFF);" value="Are All Fields Filled In?" vertex="1">
+          <mxGeometry height="100" width="160" x="570" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-25" edge="1" parent="1" source="oolTi4ql9czGb8AWLbX5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="oolTi4ql9czGb8AWLbX5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-16" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Garamond;fontColor=light-dark(#000000,#FFFFFF);strokeWidth=2;fontStyle=1;dashed=1;dashPattern=8 8;perimeterSpacing=0;strokeColor=light-dark(#000000,#FFFFFF);" value="Error: Missing Fields" vertex="1">
+          <mxGeometry height="65" width="130" x="585" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-21" edge="1" parent="1" source="oolTi4ql9czGb8AWLbX5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="oolTi4ql9czGb8AWLbX5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-27" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Garamond;fontStyle=1;fontSize=12;" value="Is The Amount Greater Than Zero?" vertex="1">
+          <mxGeometry height="95" width="150" x="830" y="105" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
