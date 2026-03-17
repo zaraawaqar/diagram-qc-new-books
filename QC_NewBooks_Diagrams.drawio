@@ -38,11 +38,11 @@
         <mxCell id="oolTi4ql9czGb8AWLbX5-27" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Garamond;fontStyle=1;fontSize=12;" value="Is The Amount Greater Than Zero?" vertex="1">
           <mxGeometry height="105" width="150" x="335" y="497.5" as="geometry" />
         </mxCell>
-        <mxCell id="oolTi4ql9czGb8AWLbX5-32" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Garamond;strokeWidth=2;fontStyle=1;dashed=1;dashPattern=8 8;" value="Error: Invalid Amount" vertex="1">
-          <mxGeometry height="70" width="130" x="570" y="515.5" as="geometry" />
+        <mxCell id="oolTi4ql9czGb8AWLbX5-45" edge="1" parent="1" source="oolTi4ql9czGb8AWLbX5-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="oolTi4ql9czGb8AWLbX5-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oolTi4ql9czGb8AWLbX5-16" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Garamond;fontColor=light-dark(#000000,#FFFFFF);strokeWidth=2;fontStyle=1;dashed=1;dashPattern=8 8;perimeterSpacing=0;strokeColor=light-dark(#000000,#FFFFFF);" value="Error: Missing Fields" vertex="1">
-          <mxGeometry height="65" width="130" x="570" y="355" as="geometry" />
+        <mxCell id="oolTi4ql9czGb8AWLbX5-44" edge="1" parent="1" source="oolTi4ql9czGb8AWLbX5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="oolTi4ql9czGb8AWLbX5-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oolTi4ql9czGb8AWLbX5-37" edge="1" parent="1" source="oolTi4ql9czGb8AWLbX5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="oolTi4ql9czGb8AWLbX5-9">
           <mxGeometry relative="1" as="geometry" />
@@ -54,6 +54,64 @@
           <mxGeometry relative="1" x="-0.2853" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-50" edge="1" parent="1" source="oolTi4ql9czGb8AWLbX5-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oolTi4ql9czGb8AWLbX5-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-51" connectable="0" parent="oolTi4ql9czGb8AWLbX5-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Garamond;fontSize=14;fontStyle=1" value="No" vertex="1">
+          <mxGeometry relative="1" x="0.0068" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-54" edge="1" parent="1" source="oolTi4ql9czGb8AWLbX5-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oolTi4ql9czGb8AWLbX5-53" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-55" connectable="0" parent="oolTi4ql9czGb8AWLbX5-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Garamond;fontSize=14;fontStyle=1" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1191" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-46" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Garamond;fontStyle=1;align=center;" value="Do Total Debits Equal Total Credits?" vertex="1">
+          <mxGeometry height="100" width="150" x="335" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-47" edge="1" parent="1" source="oolTi4ql9czGb8AWLbX5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="oolTi4ql9czGb8AWLbX5-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-48" connectable="0" parent="oolTi4ql9czGb8AWLbX5-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Garamond;fontSize=14;fontStyle=1" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.0005" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-52" edge="1" parent="1" source="oolTi4ql9czGb8AWLbX5-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="oolTi4ql9czGb8AWLbX5-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-49" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Garamond;strokeWidth=2;fontStyle=1;dashed=1;dashPattern=8 8;" value="Error: Out Of Balance" vertex="1">
+          <mxGeometry height="70" width="140" x="560" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-16" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Garamond;fontColor=light-dark(#000000,#FFFFFF);strokeWidth=2;fontStyle=1;dashed=1;dashPattern=8 8;perimeterSpacing=0;strokeColor=light-dark(#000000,#FFFFFF);" value="Error: Missing Fields" vertex="1">
+          <mxGeometry height="65" width="130" x="570" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-32" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Garamond;strokeWidth=2;fontStyle=1;dashed=1;dashPattern=8 8;" value="Error: Invalid Amount" vertex="1">
+          <mxGeometry height="70" width="130" x="570" y="515.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-57" edge="1" parent="1" source="oolTi4ql9czGb8AWLbX5-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oolTi4ql9czGb8AWLbX5-56" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-53" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Garamond;strokeWidth=2;fontStyle=1;fillColor=light-dark(#FFFFFF,#E5CCFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#B266FF);" value="Save Entry To Database" vertex="1">
+          <mxGeometry height="70" width="150" x="335" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-59" edge="1" parent="1" source="oolTi4ql9czGb8AWLbX5-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oolTi4ql9czGb8AWLbX5-58" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-56" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Garamond;fillColor=light-dark(#FFFFFF,#E5CCFF);strokeColor=light-dark(#000000,#B266FF);fontColor=light-dark(#000000,#000000);strokeWidth=2;fontStyle=1;" value="Clear Form And Refresh Register" vertex="1">
+          <mxGeometry height="65" width="155" x="332.5" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="oolTi4ql9czGb8AWLbX5-58" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Garamond;fillColor=none;strokeColor=default;fontColor=light-dark(#000000,#FFFFFF);strokeWidth=2;fontStyle=1;" value="Post Another Entry?" vertex="1">
+          <mxGeometry height="92.5" width="160" x="330" y="1097.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
