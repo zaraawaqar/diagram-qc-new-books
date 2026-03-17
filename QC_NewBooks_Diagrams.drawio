@@ -131,11 +131,14 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Z_WMPltGFNxuirBt64YP" name="Page-2">
-    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="Z_WMPltGFNxuirBt64YP" name="Part B - ERD">
+    <mxGraphModel dx="1226" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0MHVxu2YjBZGHHOPvtY3-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Garamond;fontSize=17;fontStyle=1;fontColor=light-dark(#000000,#FFCCE6);" value="&lt;span style=&quot;text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;QC NewBooks — Database Structure&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="290" x="400" y="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
